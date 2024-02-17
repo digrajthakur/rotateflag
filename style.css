@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+#box {
+
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://us.123rf.com/450wm/dimol/dimol1411/dimol141100038/33298612-vintage-retro-effect-filtered-hipster-style-image-of-india-indian-flag-against-blue-sky-with.jpg?ver=6');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#box-1 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(rgb(3, 3, 142), whitesmoke, red);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* https://i.pinimg.com/736x/36/f3/1e/36f31ee981d409d920086a5b60e91ac8.jpg */
+#box-2 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://www.guideforyou-russia.com/wp-content/uploads/2015/02/avtoshkola_flag-300x248.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#box-3 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://i.pinimg.com/736x/36/f3/1e/36f31ee981d409d920086a5b60e91ac8.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#box-4 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSelSu9w_1n80Rn0kuVMiT3MjPktuoaAvx9zmycDRGZ6VidD0LfHVdqXTqo3uGqxqTX5lY&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#box-5 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://media.istockphoto.com/id/1180612997/photo/united-arab-emirates-flag.webp?b=1&s=170667a&w=0&k=20&c=7eOD3AIPF8yCaaL-Ql4jT0ZMcHFORVHaNVOGG9ET4PI=');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#box-6 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://img.freepik.com/free-photo/england-flag_1048-3362.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#box-7 {
+    margin: 2rem 12rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: conic-gradient(orange, whitesmoke, green);
+    animation: animate 1s linear infinite;
+    flex-wrap: wrap;
+    background-image: url('https://i.pinimg.com/736x/41/02/7c/41027c44427e666b9a71c57a9bf95c1e.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+@keyframes animate {
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #box {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-1 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-2 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-3 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-4 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-5 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-6 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+
+    #box-7 {
+        margin: 10px 10px;
+        flex-wrap: wrap;
+    }
+}
